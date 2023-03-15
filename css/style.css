@@ -286,10 +286,13 @@ figure figcaption {
   padding: 4px;
 }
 
- #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
-            text-decoration: none;
-            outline: none;
-            color: #2c98f0; }
+#colorlib-aside .colorlib-footer ul li a:hover,
+#colorlib-aside .colorlib-footer ul li a:active,
+#colorlib-aside .colorlib-footer ul li a:focus {
+  text-decoration: none;
+  outline: none;
+  color: #2c98f0;
+}
 
 .container-wrap {
   max-width: 1170px;
@@ -384,6 +387,7 @@ figure figcaption {
   min-height: 500px;
   z-index: 9;
 }
+
 /*
 #colorlib-hero .flexslider .slider-text>.slider-text-inner {
   display: table-cell;
@@ -1216,15 +1220,39 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .progress-bar.color-11 {
-  background: #a3390f;
+  background: #dd28d4;
 }
 
 .progress-bar.color-11:after {
-  background: #a3390f;
+  background: #dd28d4;
 }
 
-.progress-bar.color-11 span {
-  color: #a3390f;
+#dd28d4 .progress-bar.color-11 span {
+  color: #dd28d4;
+}
+
+.progress-bar.color-12 {
+  background: #2b1a8a;
+}
+
+.progress-bar.color-12:after {
+  background: #2b1a8a;
+}
+
+.progress-bar.color-12 span {
+  color: #2b1a8a;
+}
+
+.progress-bar.color-13 {
+  background: #c71b4f;
+}
+
+.progress-bar.color-13:after {
+  background: #c71b4f;
+}
+
+.progress-bar.color-13 span {
+  color: #c71b4f;
 }
 
 
